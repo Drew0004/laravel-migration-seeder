@@ -10,6 +10,7 @@ class TrainsController extends Controller
 {
     public function index()
     {
+        // $trains = Train::all();
         // Query SQL SELECT * FROM `trains` WHERE departure_date >= '2024-02-27';
         $trains = Train::where('departure_date', '>=','2024-02-27') -> get();
         return view('welcome', compact('trains'));

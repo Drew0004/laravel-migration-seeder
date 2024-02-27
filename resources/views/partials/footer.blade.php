@@ -1,3 +1,3 @@
 <footer>
-    <h2>Footer</h2>
+    <h2 class="text-center my-4">Footer</h2>
 </footer>
