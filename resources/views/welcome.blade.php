@@ -8,7 +8,6 @@
     <h1>
         Trains
     </h1>
-    
     @foreach ($trains as $train)
         <ul class="my-3">
             <li>Nome azienda:{{ $train->agency_name }}</li>
