@@ -16,7 +16,7 @@
 6. Aprire un altro terminale ed eseguire il comando php artisan serve
 
 
-Milestone 1
+Milestone 1 --OK
 Creiamo una tabella trains e relativa Migration
 Ogni treno dovrà avere:
 Azienda
@@ -31,5 +31,6 @@ Cancellato
 È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto
 Inserite inizialmente i dati tramite PhpMyAdmin.
 Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
+
 Milestone 2
 Aggiungiamo un seeder per la classe Train usando FakerPHP.
